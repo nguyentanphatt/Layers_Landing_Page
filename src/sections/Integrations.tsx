@@ -8,5 +8,7 @@ const integrations = [
 ];
 
 export default function Integrations() {
-    return <div>Integrations</div>;
+    return <section>
+        <div className="container"></div>
+    </section>
 }
