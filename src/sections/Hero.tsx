@@ -41,7 +41,7 @@ export default function Hero() {
             [rightPointer.current, {x: 175, y: 0}, {duration: 0.5}],
             [rightPointer.current, {x: 0, y: [0, 20 ,0]}, {duration: 0.5}]
         ])
-    }, []);
+    }, [leftAnimate, leftPointer, leftPointerAnimate, leftScope, rightAnimate, rightPointer, rightPointerAnimate, rightScope]);
 
     return (
         <section className="py-24 overflow-x-clip" style={{cursor: `url(${cursorImg.src}), auto`}}>

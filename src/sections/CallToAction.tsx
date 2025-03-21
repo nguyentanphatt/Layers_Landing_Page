@@ -19,7 +19,7 @@ export default function CallToAction() {
                 animation.current.speed = 1
             }
         }
-    },[isHover])
+    },[isHover, animate, scope])
 
     return (
         <section className="py-24">
